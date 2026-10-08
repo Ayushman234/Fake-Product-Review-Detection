@@ -1,0 +1,25 @@
+==================================================
+Fake Product Review Detection — Evaluation Metrics
+==================================================
+
+Accuracy:   0.9383 (93.83%)
+Precision:  0.9454 (94.54%)
+Recall:     0.9302 (93.02%)
+F1-Score:   0.9377 (93.77%)
+
+Confusion Matrix:
+  True Negatives  (Genuine → Genuine): 3826
+  False Positives (Genuine → Fake):    217
+  False Negatives (Fake → Genuine):    282
+  True Positives  (Fake → Fake):       3758
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Genuine (OR)       0.93      0.95      0.94      4043
+   Fake (CG)       0.95      0.93      0.94      4040
+
+    accuracy                           0.94      8083
+   macro avg       0.94      0.94      0.94      8083
+weighted avg       0.94      0.94      0.94      8083
+
